@@ -16,6 +16,7 @@ public class CurrentAccount extends BankAccount{
         // If the characters of the license-Id can be rearranged to create any valid license-Id
         // If it is not possible, throw "Valid License can not be generated" Exception
 
+        char[] tradeLicenseArray = tradeLicenseId.toCharArray();
     }
 
 }

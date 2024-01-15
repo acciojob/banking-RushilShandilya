@@ -24,7 +24,6 @@ public class BankAccount {
         //If it is not possible, throw "Account Number can not be generated" exception
         for(int i = (int)Math.pow(10,digits-1) ; i<(int)Math.pow(10,digits) ; ++i)
             if(checkSum(i,sum)) return String.valueOf(i);
-        
         return "Account Number can not be generated";
     }
     boolean checkSum(int number,int actualSum){
